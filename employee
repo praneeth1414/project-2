@@ -1,0 +1,31 @@
+#program:
+class employe1{
+  public void emp1(String Name,int Year,String Address)
+  {
+     System.out.println("Name  "+"Year of Joining  "+"  Address");
+     System.out.println(Name +"  "+Year +"     "+Address);
+  }
+  public void emp2(String Name,int Year,String Address)
+  {
+     System.out.println(Name +"    "+Year +"      "+Address);
+  }
+  public void emp3(String Name,int Year,String Address)
+  {
+     System.out.println(Name +"   "+Year +"      "+Address);
+  }
+}
+public class Employee
+{
+public static void main(String args[])
+{
+   employe1 e1=new employe1();
+   e1.emp1("Robert",1994,"64C-WallStreet");
+   e1.emp2("Sam",2000,"68D-WallStreet");
+   e1.emp3("John",1999,"26B-WallStreet");
+}
+}
+#output:
+Name  Year of Joining    Address
+Robert  1994     64C-WallStreet
+Sam    2000      68D-WallStreet
+John   1999      26B-WallStreet
